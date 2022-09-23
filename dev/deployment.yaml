@@ -6,7 +6,11 @@ spec:
   selector:
     matchLabels:
       app: myapp
+<<<<<<< HEAD
   replicas: 3
+=======
+  replicas: 5
+>>>>>>> 6711c72a566a9343bebd132ebd9835884706292c
   template:
     metadata:
       labels:
